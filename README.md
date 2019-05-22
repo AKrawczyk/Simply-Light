@@ -1,6 +1,7 @@
 # Simply-Light
 A simple Night Light designed for Fitbit Versa.<br>
 A simple night light with a choice of 6 colours.<br>
+<img src="/Screenshots/Simply-light-logo.png" width="150" hight="150"><img src="/Screenshots/Simply-light.png" width="150" hight="150"><img src="/Screenshots/Simply-light-1.png" width="150" hight="150"><img src="/Screenshots/Simply-light-2.png" width="150" hight="150"><img src="/Screenshots/Simply-light-3.png" width="150" hight="150"></br>
 Perfect when you need a light but don't want to disturb everyone.<br>
 Press the centre of the screen to toggle blackout on/off.<br>
 Press the cog to access settings;<br>
