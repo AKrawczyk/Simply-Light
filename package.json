@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "appUUID": "fafc65a6-f707-4140-b0bb-d0fe1ce8f986",
+    "appType": "app",
+    "appDisplayName": "Simply Light",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Simply Light"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
