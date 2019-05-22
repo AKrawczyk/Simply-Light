@@ -1,0 +1,73 @@
+<svg id="main" viewport-fill="fb-white">
+  <!-- Main Display Begin-->
+  <image id="background" href="nightlight.png" fill="fb-blue"/>
+  <image id="brightness" href="black.png" fill="fb-white"/>
+  
+  <!-- Buttons -->
+  <svg id="cog" display="inline">
+    <!-- Top left -->
+    <use id="btn-cog" href="#combo-button-upper-left" fill="fb-light-gray">
+      <set href="combo-button-icon" attributeName="href" to="btn_combo_cog_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_combo_cog_p.png"/>
+    </use>
+  </svg>
+  <!-- Center -->
+  <circle id="center" cx="150" cy="150" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+  <!-- Main Display End-->
+
+  <!-- Settings Display Begin -->
+  <svg id="settings" x="100%" opacity="0"  display="none">
+    <animate attributeName="opacity" begin="enable" from="0" to="1" dur="0.3" final="keep" easing="ease-in" />
+    <animate attributeName="opacity" begin="disable+0.1" from="1" to="0" dur="0.3" final="keep" easing="ease-in" />
+    <animate attributeName="x" begin="enable+0.1" from="100%" to="0" dur="0.3" final="keep" easing="ease-in" />
+    <animate attributeName="x" begin="disable+0.2" from="0" to="100%" dur="0.3" final="keep" easing="ease-in" />
+    
+    <!-- Colour Buttons -->
+    <image id="blueout" x="15" y="15" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <image id="bluein" x="15" y="15" fill="fb-blue" width="70" height="70" href="Circle_Inside.png" />
+    <circle id="blue" cx="50" cy="50" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+
+    <image id="purpleout" x="115" y="15" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <image id="purplein" x="115" y="15" fill="fb-purple" width="70" height="70" href="Circle_Inside.png" />
+    <circle id="purple" cx="150" cy="50" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+
+    <image id="redout" x="15" y="115" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <image id="redin" x="15" y="115" fill="fb-red" width="70" height="70" href="Circle_Inside.png" />
+    <circle id="red" cx="50" cy="150" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+
+    <image id="orangeout" x="115" y="115" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <image id="orangein" x="115" y="115" fill="fb-orange" width="70" height="70" href="Circle_Inside.png" />
+    <circle id="orange" cx="150" cy="150" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+
+    <image id="greenout" x="15" y="215" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <image id="greenin" x="15" y="215" fill="fb-green" width="70" height="70" href="Circle_Inside.png" />
+    <circle id="green" cx="50" cy="250" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+
+    <image id="whiteout" x="115" y="215" fill="fb-black" width="70" height="70" href="Circle_Outside.png" />
+    <circle id="whitein" cx="150" cy="250" r="30" fill="fb-white"/>
+    <circle id="white" cx="150" cy="250" r="70" fill="#ffffff" opacity="0" pointer-events="visible" />
+    
+    <!-- Brightness Level -->
+    <!-- Brightness Meter -->
+    <circle id="brightleveltop" cx="270" cy="76" r="20" fill="fb-black"/>
+    <circle id="brightlevelbottom" cx="270" cy="224" r="20" fill="fb-black"/>
+    <rect id="brightlevelbkg" width="40" height="148" x="250" y="76" fill="fb-black" />
+    <rect id="brightlevelfull" width="32" height="140" x="254" y="80" fill="fb-white" />
+    <rect id="brightlevel" width="40" height="148" x="250" y="76" fill="fb-black" />
+    
+    <!-- Britness Btttons -->
+    <svg id="plusminus">
+      <!-- Top Right -->
+      <use id="btn-plus" href="#combo-button-upper-right" fill="fb-black">
+        <set href="combo-button-icon" attributeName="href" to="sqr_btn_plus_p.png"/>
+        <set href="combo-button-icon-press" attributeName="href" to="sqr_btn_plus_p.png"/>
+      </use>
+      <!-- Bottom Right -->
+      <use id="btn-minus" href="#combo-button-lower-right" fill="fb-black">
+        <set href="combo-button-icon" attributeName="href" to="sqr_btn_minus_p.png"/>
+        <set href="combo-button-icon-press" attributeName="href" to="sqr_btn_minus_p.png"/>
+      </use>
+    </svg>
+  </svg>
+  <!-- Settings Display End -->
+</svg>
