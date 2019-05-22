@@ -1,5 +1,5 @@
 # Simply-Light
-Simple Night Light designed for Fitbit Versa.<br>
+A simple Night Light designed for Fitbit Versa.<br>
 A simple night light with a choice of 6 colours.<br>
 Perfect when you need a light but don't want to disturb everyone.<br>
 Press the centre of the screen to toggle blackout on/off.<br>
