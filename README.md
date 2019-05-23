@@ -10,7 +10,7 @@ Press the cog to access settings;<br>
 - The chosen setting will be saved.<br>
 
 # Setting the brightness
-The the levels of brightness/darkness are created using Image Grayscale Magic!.<br>
+The levels of brightness/darkness are created using Image Grayscale Magic!.<br>
 I created a number of grayscale images with diffrent values of gray.</br>
 I used this site to caluclate the diffrent values. https://meyerweb.com/eric/tools/color-blend/#000000:FFFFFF:5:rgbd </br>
 I then set the fill of this image to fb-black, which created diffrent dark transparencies.</br>
