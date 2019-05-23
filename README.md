@@ -9,6 +9,13 @@ Press the cog to access settings;<br>
 - Choose the brightness of the screen.<br>
 - The chosen setting will be saved.<br>
 
+# Settings the brightness
+The the levels of brightness/darkness is created using Image Grayscale Magic!.<br>
+I created a number of grayscale images with diffrent values of gray.</br>
+I then set the fill of this image to fb-black, which created diffrent dark transparencies.</br>
+This allowed the background image to be displayed but to become brighter or darker depending on background image.</br>
+This is how I enabled the brightness/darkness of the display.<br>
+
 # Image Grayscale Magic!
 Grayscale images can be colored dynamically with the fill property. The black area of an image will be fully transparent (0) and the white will be fully opaque (255). All the mid-gray areas will inherit opacity according to their depth of color (0 - 255).
 
