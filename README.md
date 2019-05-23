@@ -10,8 +10,9 @@ Press the cog to access settings;<br>
 - The chosen setting will be saved.<br>
 
 # Settings the brightness
-The the levels of brightness/darkness is created using Image Grayscale Magic!.<br>
+The the levels of brightness/darkness are created using Image Grayscale Magic!.<br>
 I created a number of grayscale images with diffrent values of gray.</br>
+I used this site to caluclate the diffrent values. https://meyerweb.com/eric/tools/color-blend/#000000:FFFFFF:5:rgbd </br>
 I then set the fill of this image to fb-black, which created diffrent dark transparencies.</br>
 This allowed the background image to be displayed but to become brighter or darker depending on background image.</br>
 This is how I enabled the brightness/darkness of the display.<br>
@@ -23,9 +24,13 @@ Note: The image must be 8-bit PNG format.</br>
 
 Example Code:
 <div class="codeWrap app">
-<pre class="language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span>&gt;</span></span></br>
-&lt;</span>image width="100%" height="100%" href="hand.png" class="seconds" fill="#3fc0fc" opacity="1" /</span>&gt;</span></span></br>
+<pre class="language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation"><b>resources</b></br>
+&lt;</span>svg</span>&gt;</span></span></br>
+&lt;</span>image id="brightness" width="100%" height="100%" href="gray-1.png" fill="fb-black" opacity="1" /</span>&gt;</span></span></br>
 &lt;/</span>svg</span>&gt;</span></span></br>
+</br>
+<b>app</b></br>
+display.brightnessOverride = 0.0;</br>
 </code></pre>
 </div>
 
